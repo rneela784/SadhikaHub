@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sadhika — Grade 7 Revision Sheet</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; color: #18232d; background: #edf0f2; font: 15px/1.4 Arial, sans-serif; }
+    .tools { max-width: 760px; margin: 20px auto 12px; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding: 0 16px; }
+    button { border: 1px solid #bcc7cf; border-radius: 5px; background: white; padding: 8px 14px; font: inherit; cursor: pointer; }
+    .sheet { max-width: 800px; margin: 0 auto 20px; padding: 16px; background: white; border: 1px solid #d7dfe4; }
+    header { border-bottom: 1px solid #263e50; padding-bottom: 4px; }
+    .grade { font-size: 12px; white-space: nowrap; color: #52616c; }
+    h2 { font-size: 16px; margin: 8px 0; }
+    h3 { font-size: 14px; margin: 0 0 7px; }
+    .math-layout { display: grid; grid-template-columns: 208px minmax(0, 1fr); gap: 12px; align-items: start; }
+    .squares { width: 208px; border: 1px solid #aebdc7; padding: 6px; break-inside: avoid; }
+    .squares h3 { text-align: center; }
+    table { width: 100%; border-collapse: collapse; font-size: 13px; font-variant-numeric: tabular-nums; }
+    td { padding: 5px 2px; white-space: nowrap; text-align: center; }
+    td + td { border-left: 1px solid #d5dde2; }
+    tr + tr td { border-top: 1px solid #e3e8eb; }
+    .properties { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; font-size: 13px; break-inside: avoid; }
+    .property { border-top: 2px solid #526b7c; padding-top: 8px; }
+    p { margin: 0 0 7px; }
+    .example { font-size: 12px; }
+    .note { font-size: 11px; color: #52616c; margin-bottom: 0; }
+    .columns { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin-top: 10px; font-size: 13px; }
+    .card { border-top: 1px solid #aebdc7; padding-top: 6px; break-inside: avoid; }
+    .card h3 { margin-bottom: 4px; }
+    .formulas { margin: 5px 0; padding: 5px 7px; background: #f3f5f6; line-height: 1.65; }
+    .formulas div { break-inside: avoid; }
+    [contenteditable="true"] { outline: 2px dashed #4382a8; outline-offset: 5px; }
+    @media screen and (max-width: 720px) {
+      .sheet { padding: 12px; margin: 0 12px 20px; }
+      .math-layout { grid-template-columns: 1fr; }
+    }
+    @media screen and (max-width: 450px) {
+      .properties { grid-template-columns: 1fr; }
+      .columns { grid-template-columns: 1fr; }
+    }
+    @page { size: A4 portrait; margin: 10mm; }
+    @media print {
+      body { background: white; color: black; font-size: 11pt; }
+      .tools { display: none; }
+      .sheet { max-width: none; margin: 0; padding: 0; border: 0; }
+      .properties { grid-template-columns: repeat(3, 1fr); }
+      [contenteditable="true"] { outline: none; }
+      h2, h3 { break-after: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <div class="tools" aria-label="Sheet controls">
+    <button id="edit" type="button" aria-pressed="false">Edit text</button>
+    <button id="save" type="button">Save HTML</button>
+    <button id="print" type="button">Print</button>
+  </div>
+  <!-- Add future subjects and topics inside this article. -->
+  <article class="sheet" id="sheet" aria-label="Revision sheet">
+    <header>
+      <span class="grade">Grade 7 • Quick reference</span>
+    </header>
+    <section aria-labelledby="math-title">
+      <h2 id="math-title">Mathematics</h2>
+      <div class="math-layout">
+      <div class="squares">
+        <h3>Squares: 11–25</h3>
+        <table aria-label="Squares of numbers 11 to 25">
+          <tbody>
+            <tr><td>11 → 121</td><td>16 → 256</td><td>21 → 441</td></tr>
+            <tr><td>12 → 144</td><td>17 → 289</td><td>22 → 484</td></tr>
+            <tr><td>13 → 169</td><td>18 → 324</td><td>23 → 529</td></tr>
+            <tr><td>14 → 196</td><td>19 → 361</td><td>24 → 576</td></tr>
+            <tr><td>15 → 225</td><td>20 → 400</td><td>25 → 625</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="properties">
+        <div class="property">
+          <h3>Commutative</h3>
+          <p>Change the <strong>order</strong>; the answer stays the same.</p>
+          <p class="example">3 + 5 = 5 + 3<br>3 × 5 = 5 × 3</p>
+          <p class="note">Works for + and ×, not − or ÷.</p>
+        </div>
+        <div class="property">
+          <h3>Associative</h3>
+          <p>Change the <strong>grouping</strong>; the answer stays the same.</p>
+          <p class="example">(2 + 3) + 4 = 2 + (3 + 4)<br>(2 × 3) × 4 = 2 × (3 × 4)</p>
+          <p class="note">Works for + and ×, not − or ÷.</p>
+        </div>
+        <div class="property">
+          <h3>Distributive</h3>
+          <p><strong>Multiply each number</strong> inside the brackets.</p>
+          <p class="example">3 × (4 + 2) = 3 × 4 + 3 × 2<br>3 × (4 − 2) = 3 × 4 − 3 × 2</p>
+          <p class="note">Works with + or − inside brackets.</p>
+        </div>
+      </div>
+      </div>
+      <div class="columns">
+        <div class="card">
+          <h3>Supplementary angles</h3>
+          <p>Two angles whose sum is <strong>180°</strong>. They need not touch.</p>
+          <p class="example">Other angle = 180° − given angle</p>
+        </div>
+        <div class="card">
+          <h3>Linear pair</h3>
+          <p>Two angles sharing a vertex and an arm, with their other arms forming a <strong>straight line</strong>.</p>
+          <p class="note">Every linear pair is supplementary; supplementary angles need not form a linear pair.</p>
+        </div>
+      </div>
+    </section>
+    <section aria-labelledby="physics-title">
+      <h2 id="physics-title">Physics</h2>
+      <div class="columns">
+        <div class="card">
+          <h3>Motion</h3>
+          <p class="example">s = speed; d = distance; t = time<br>v = velocity; Δx = displacement</p>
+          <div class="formulas">
+            <div>s = d ÷ t</div>
+            <div>d = s × t</div>
+            <div>t = d ÷ s</div>
+            <div>v = Δx ÷ t</div>
+            <div>Δx = v × t</div>
+            <div>t = Δx ÷ v</div>
+          </div>
+          <p class="note">Use constant or average s and v.</p>
+        </div>
+        <div class="card">
+          <h3>Waves</h3>
+          <p><strong>Frequency (f):</strong> waves passing a point each second.<br><strong>Wavelength (λ):</strong> distance between neighbouring crests.<br><strong>Period (T):</strong> time for one complete wave.</p>
+          <div class="formulas">
+            <div>Wave speed: v = f × λ = λ ÷ T</div>
+            <div>Frequency: f = v ÷ λ = 1 ÷ T</div>
+            <div>Wavelength: λ = v ÷ f = v × T</div>
+            <div>Period: T = 1 ÷ f</div>
+            <div>Frequency: f = number of waves ÷ time</div>
+            <div>Number of waves = f × time</div>
+            <div>Distance travelled by wave: d = v × t</div>
+            <div>Travel time: t = d ÷ v</div>
+          </div>
+          <p class="note">Units: f in hertz (Hz); λ and d in m; T and t in s; v in m/s.</p>
+          <p class="example"><strong>T</strong> = time for one wave; <strong>t</strong> = total time.<br>Wavelength is one wave’s length; d is how far the wave travels.</p>
+        </div>
+      </div>
+    </section>
+  </article>
+  <script>
+    const sheet = document.getElementById('sheet');
+    const edit = document.getElementById('edit');
+    edit.addEventListener('click', () => {
+      const enabled = sheet.contentEditable !== 'true';
+      sheet.contentEditable = String(enabled);
+      edit.setAttribute('aria-pressed', String(enabled));
+      edit.textContent = enabled ? 'Done editing' : 'Edit text';
+      if (enabled) sheet.focus();
+    });
+    document.getElementById('print').addEventListener('click', () => window.print());
+    document.getElementById('save').addEventListener('click', () => {
+      const copy = document.documentElement.cloneNode(true);
+      copy.querySelector('#sheet').removeAttribute('contenteditable');
+      copy.querySelector('#edit').setAttribute('aria-pressed', 'false');
+      copy.querySelector('#edit').textContent = 'Edit text';
+      const blob = new Blob(['<!doctype html>\n' + copy.outerHTML], { type: 'text/html;charset=utf-8' });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = 'Sadhika_Revision_Sheet.html';
+      link.click();
+      setTimeout(() => URL.revokeObjectURL(url), 1000);
+    });
+  </script>
+</body>
+</html>
