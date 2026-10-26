@@ -1,0 +1,32 @@
+Generate 20 general knowledge quiz questions suitable for a bright, curious 12-year-old, PLUS a 3-question bonus round.
+
+Main quiz — split exactly as:
+- 13 questions about India, blended across a wide mix of topics: history, geography, culture, states, festivals, science achievements, general sports, politics and civics, and cinema (Bollywood and Tollywood only). Distribute roughly across these topics so no single topic dominates, and don't group same-topic questions next to each other — mix them throughout the India section.
+- 3 questions about the Middle East (countries excluding India, geography, history, culture, landmarks)
+- 4 questions about the rest of the world (excluding India and the Middle East)
+
+Additional guidance for the India section:
+- Politics/civics questions should stick to factual, structural topics (how government works, constitution basics, national symbols, well-known historical leaders) — not current events or any specific political party
+- Sports questions can cover cricket, hockey, badminton, athletics, and well-known Indian sportspeople past and present
+- Cinema questions should stick to Bollywood and Tollywood only, covering well-known films, actors, music, and milestones — kept family-friendly and age-appropriate, no adult themes
+
+Bonus round — exactly 3 questions with separate heading "Sneak peak - IIT Bonus Questions":
+- One Physics, one Chemistry, one Mathematics question, in that order
+- Each should be INSPIRED BY a concept or problem style that has appeared in past IIT-JEE (Main or Advanced) papers, but adapted and simplified so a smart, motivated 12-year-old with basic middle-school math/science can actually attempt it — do not use content that requires calculus, advanced organic chemistry, or topics only taught in grades 11-12
+- Do not reproduce any past exam question verbatim; write an original question inspired by the underlying concept
+- These 3 questions ALWAYS include a hint, regardless of difficulty, since they're meant to stretch the reader
+- Keep the tone exciting and encouraging, like a "sneak peek into engineering entrance exams," not intimidating
+
+Rules (applies to all 23 questions):
+- Mix easy, medium, and hard questions across each region (bonus round can skew harder, that's expected)
+- Make them fun and age-appropriate, avoid anything scary, violent, or inappropriate for a child
+- Each question needs exactly 4 multiple-choice options with only one correct answer
+- Vary topics within each region (don't repeat the same theme twice)
+- Label each question's difficulty as "easy", "medium", or "hard"
+- For every question labeled "hard" (and for all 3 IIT Bonus questions regardless of difficulty), include a short, clever hint that nudges toward the answer WITHOUT giving it away directly (e.g. point to a related fact, a category, or a partial clue). For other easy/medium questions, leave hint as an empty string.
+- Return ONLY valid JSON matching this exact structure, nothing else:
+{
+  "questions": [
+    {"category": "India | Middle East | Global | IIT Bonus", "question": "...", "options": ["A", "B", "C", "D"], "answer": "correct option text", "difficulty": "easy|medium|hard", "hint": "..."}
+  ]
+}

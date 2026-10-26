@@ -1,0 +1,12 @@
+const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const {scoreQuiz} = require('./quiz-assets/quiz.js');
+const questions = JSON.parse(fs.readFileSync('./quizzes/2026-10-26.json', 'utf8')).questions;
+const correct = questions.map(q => q.options.indexOf(q.answer));
+assert.deepEqual(scoreQuiz(questions, correct), {gk:20, bonus:3, total:23, answered:23});
+assert.deepEqual(scoreQuiz(questions, []), {gk:0, bonus:0, total:0, answered:0});
+assert.deepEqual(scoreQuiz(questions, correct.map(a => (a + 1) % 4)), {gk:0, bonus:0, total:0, answered:23});
+const partial = Array(23).fill(null); partial[0] = correct[0]; partial[20] = correct[20]; partial[22] = (correct[22]+1)%4;
+assert.deepEqual(scoreQuiz(questions, partial), {gk:1, bonus:1, total:2, answered:3});
+assert.deepEqual(scoreQuiz(questions, Array(23).fill(-1)), {gk:0, bonus:0, total:0, answered:0});
+console.log('Scoring passed: full, empty, incorrect, partial, invalid selections.');
