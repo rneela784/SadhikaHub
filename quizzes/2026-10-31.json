@@ -1,0 +1,303 @@
+{
+  "questions": [
+    {
+      "category": "India",
+      "question": "Which imaginary line of latitude passes through India?",
+      "options": [
+        "Equator",
+        "Tropic of Capricorn",
+        "Tropic of Cancer",
+        "Arctic Circle"
+      ],
+      "answer": "Tropic of Cancer",
+      "difficulty": "medium",
+      "hint": ""
+    },
+    {
+      "category": "India",
+      "question": "Bihu celebrations are especially associated with which Indian state?",
+      "options": [
+        "Assam",
+        "Kerala",
+        "Haryana",
+        "Goa"
+      ],
+      "answer": "Assam",
+      "difficulty": "easy",
+      "hint": ""
+    },
+    {
+      "category": "India",
+      "question": "C. V. Raman's Nobel-winning research explored the scattering of what?",
+      "options": [
+        "Sound",
+        "Light",
+        "Seeds",
+        "Ocean currents"
+      ],
+      "answer": "Light",
+      "difficulty": "hard",
+      "hint": "Think of what passes through a prism and can form a spectrum."
+    },
+    {
+      "category": "India",
+      "question": "What is the minimum voting age for an Indian citizen in a Lok Sabha election?",
+      "options": [
+        "16 years",
+        "21 years",
+        "25 years",
+        "18 years"
+      ],
+      "answer": "18 years",
+      "difficulty": "easy",
+      "hint": ""
+    },
+    {
+      "category": "India",
+      "question": "P. V. Sindhu competes in a sport played with a shuttlecock. Which sport is it?",
+      "options": [
+        "Table tennis",
+        "Squash",
+        "Badminton",
+        "Tennis"
+      ],
+      "answer": "Badminton",
+      "difficulty": "easy",
+      "hint": ""
+    },
+    {
+      "category": "India",
+      "question": "The ruins of Nalanda, an ancient centre of learning, are in which present-day state?",
+      "options": [
+        "Bihar",
+        "Maharashtra",
+        "Gujarat",
+        "Tamil Nadu"
+      ],
+      "answer": "Bihar",
+      "difficulty": "medium",
+      "hint": ""
+    },
+    {
+      "category": "India",
+      "question": "In the Bollywood film Lagaan, the villagers take on a challenge in which sport?",
+      "options": [
+        "Football",
+        "Hockey",
+        "Kabaddi",
+        "Cricket"
+      ],
+      "answer": "Cricket",
+      "difficulty": "easy",
+      "hint": ""
+    },
+    {
+      "category": "India",
+      "question": "Warli paintings, often made with simple geometric human figures, are strongly associated with which state?",
+      "options": [
+        "Punjab",
+        "Maharashtra",
+        "Sikkim",
+        "Odisha"
+      ],
+      "answer": "Maharashtra",
+      "difficulty": "hard",
+      "hint": "Look to western India, in the state whose capital is Mumbai."
+    },
+    {
+      "category": "India",
+      "question": "Gangtok is the capital of which Indian state?",
+      "options": [
+        "Meghalaya",
+        "Mizoram",
+        "Sikkim",
+        "Tripura"
+      ],
+      "answer": "Sikkim",
+      "difficulty": "medium",
+      "hint": ""
+    },
+    {
+      "category": "India",
+      "question": "Which bird is India's national bird?",
+      "options": [
+        "Indian peacock",
+        "House sparrow",
+        "Rose-ringed parakeet",
+        "Sarus crane"
+      ],
+      "answer": "Indian peacock",
+      "difficulty": "easy",
+      "hint": ""
+    },
+    {
+      "category": "India",
+      "question": "Which of these crops saw a major production boost during India's Green Revolution?",
+      "options": [
+        "Coffee",
+        "Rubber",
+        "Tea",
+        "Wheat"
+      ],
+      "answer": "Wheat",
+      "difficulty": "hard",
+      "hint": "Think of a cereal commonly ground into flour for chapatis."
+    },
+    {
+      "category": "India",
+      "question": "In which city would you find the Hawa Mahal, or Palace of Winds?",
+      "options": [
+        "Agra",
+        "Jaipur",
+        "Hyderabad",
+        "Mysuru"
+      ],
+      "answer": "Jaipur",
+      "difficulty": "easy",
+      "hint": ""
+    },
+    {
+      "category": "India",
+      "question": "The Panchatantra is best known for stories that often teach wisdom through which characters?",
+      "options": [
+        "Space explorers",
+        "Robots",
+        "Talking animals",
+        "Modern detectives"
+      ],
+      "answer": "Talking animals",
+      "difficulty": "medium",
+      "hint": ""
+    },
+    {
+      "category": "Middle East",
+      "question": "The Burj Khalifa is a famous landmark in which UAE city?",
+      "options": [
+        "Dubai",
+        "Abu Dhabi",
+        "Sharjah",
+        "Al Ain"
+      ],
+      "answer": "Dubai",
+      "difficulty": "easy",
+      "hint": ""
+    },
+    {
+      "category": "Middle East",
+      "question": "Mesopotamia means 'land between rivers'. Which two rivers are associated with it?",
+      "options": [
+        "Nile and Congo",
+        "Indus and Ganges",
+        "Rhine and Danube",
+        "Tigris and Euphrates"
+      ],
+      "answer": "Tigris and Euphrates",
+      "difficulty": "hard",
+      "hint": "Both rivers flow through Iraq; look away from Africa, India and Europe."
+    },
+    {
+      "category": "Middle East",
+      "question": "Which fruit grows on palms and is especially important in the food traditions of Saudi Arabia?",
+      "options": [
+        "Apples",
+        "Dates",
+        "Grapes",
+        "Peaches"
+      ],
+      "answer": "Dates",
+      "difficulty": "medium",
+      "hint": ""
+    },
+    {
+      "category": "Global",
+      "question": "Which Australian animal carries its young, called joeys, in a pouch and is famous for hopping?",
+      "options": [
+        "Giant panda",
+        "Polar bear",
+        "Kangaroo",
+        "Emperor penguin"
+      ],
+      "answer": "Kangaroo",
+      "difficulty": "easy",
+      "hint": ""
+    },
+    {
+      "category": "Global",
+      "question": "How many interlocking rings appear in the Olympic symbol?",
+      "options": [
+        "Five",
+        "Four",
+        "Six",
+        "Seven"
+      ],
+      "answer": "Five",
+      "difficulty": "medium",
+      "hint": ""
+    },
+    {
+      "category": "Global",
+      "question": "Which scientist discovered penicillin after noticing the effect of mould on bacteria in 1928?",
+      "options": [
+        "Isaac Newton",
+        "Charles Darwin",
+        "Galileo Galilei",
+        "Alexander Fleming"
+      ],
+      "answer": "Alexander Fleming",
+      "difficulty": "hard",
+      "hint": "Think of a Scottish researcher working with microbes, rather than planets or evolution."
+    },
+    {
+      "category": "Global",
+      "question": "What is the capital of New Zealand?",
+      "options": [
+        "Auckland",
+        "Wellington",
+        "Christchurch",
+        "Dunedin"
+      ],
+      "answer": "Wellington",
+      "difficulty": "medium",
+      "hint": ""
+    },
+    {
+      "category": "IIT Bonus",
+      "question": "Physics: A light ruler balances on a pivot. A 6-newton downward force acts 20 cm to the left of the pivot. What downward force, 40 cm to the right, balances it? Ignore the ruler's weight.",
+      "options": [
+        "12 newtons",
+        "6 newtons",
+        "3 newtons",
+        "2 newtons"
+      ],
+      "answer": "3 newtons",
+      "difficulty": "hard",
+      "hint": "For balance, force multiplied by distance from the pivot must be equal on both sides."
+    },
+    {
+      "category": "IIT Bonus",
+      "question": "Chemistry: You dissolve 10 grams of salt completely in 90 grams of water. Nothing is lost. What percentage of the total solution's mass is salt?",
+      "options": [
+        "10%",
+        "9%",
+        "90%",
+        "11.1%"
+      ],
+      "answer": "10%",
+      "difficulty": "medium",
+      "hint": "The solution includes both salt and water. Divide the salt's mass by the total mass, then multiply by 100."
+    },
+    {
+      "category": "IIT Bonus",
+      "question": "Mathematics: A rectangle has a perimeter of 40 cm. Which pair of side lengths gives the greatest area?",
+      "options": [
+        "4 cm and 16 cm",
+        "6 cm and 14 cm",
+        "8 cm and 12 cm",
+        "10 cm and 10 cm"
+      ],
+      "answer": "10 cm and 10 cm",
+      "difficulty": "hard",
+      "hint": "All four pairs use the same perimeter. Multiply length by width for each pair and compare."
+    }
+  ]
+}

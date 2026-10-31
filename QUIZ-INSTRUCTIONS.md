@@ -10,6 +10,8 @@ Review all historic question JSON to avoid repeats and trivial rewordings. Verif
 
 ## Refresh and publication
 
+Navigation update approved 26 October 2026, effective next scheduled publication: index.html is the main portal for activities, so it must link to Revision Sheet and Weekly GK Quiz but must not include a Past Quizzes / quiz-archive.html link. Keep the Past quizzes link within the quiz pages. The local home page is already prepared; include its removal in the next refresh commit. When reconciling remote files, preserve this pending change and publish these updated instructions too. Apply this rule on future refreshes.
+
 1. Inspect the current GitHub main branch and remote quiz manifest/history before starting. Reconcile any newer remote files locally; do not overwrite other people's changes. On an unexplained conflict or access failure, retain the last successful quiz and report the issue.
 2. Derive the actual Dubai date. Scheduled weekly editions use the Saturday date of the due run; if delayed, use the most recent due Saturday and record the actual generation date in the research note. Do not backfill invented historic editions. If the due edition already exists, validate/finish its publication, never generate a replacement for it. First sample is dated 2026-10-26. Next scheduled edition is 2026-10-31.
 3. Create quizzes/YYYY-MM-DD.json and add its date, label, and filename to quizzes/manifest.json. Never replace an existing edition's questions. Any requested correction must be explicit and recorded.

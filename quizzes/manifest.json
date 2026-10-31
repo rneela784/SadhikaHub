@@ -1,5 +1,14 @@
 {
   "editions": [
-    {"date":"2026-10-26","label":"First edition","file":"2026-10-26.json"}
+    {
+      "date": "2026-10-26",
+      "label": "First edition",
+      "file": "2026-10-26.json"
+    },
+    {
+      "date": "2026-10-31",
+      "label": "Saturday edition",
+      "file": "2026-10-31.json"
+    }
   ]
 }
