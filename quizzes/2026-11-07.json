@@ -1,0 +1,303 @@
+{
+  "questions": [
+    {
+      "category": "India",
+      "question": "The Narmada flows west and empties into which sea?",
+      "options": [
+        "Bay of Bengal",
+        "Arabian Sea",
+        "Red Sea",
+        "Caspian Sea"
+      ],
+      "answer": "Arabian Sea",
+      "difficulty": "medium",
+      "hint": ""
+    },
+    {
+      "category": "India",
+      "question": "Pongal is a harvest festival especially associated with which state?",
+      "options": [
+        "Punjab",
+        "Assam",
+        "Gujarat",
+        "Tamil Nadu"
+      ],
+      "answer": "Tamil Nadu",
+      "difficulty": "easy",
+      "hint": ""
+    },
+    {
+      "category": "India",
+      "question": "What was the name of India's first satellite, launched in 1975?",
+      "options": [
+        "Aryabhata",
+        "Rohini",
+        "Bhaskara-I",
+        "INSAT-1A"
+      ],
+      "answer": "Aryabhata",
+      "difficulty": "medium",
+      "hint": ""
+    },
+    {
+      "category": "India",
+      "question": "Who chaired the committee that drafted India's Constitution?",
+      "options": [
+        "Rajendra Prasad",
+        "Sardar Vallabhbhai Patel",
+        "B. R. Ambedkar",
+        "Jawaharlal Nehru"
+      ],
+      "answer": "B. R. Ambedkar",
+      "difficulty": "medium",
+      "hint": ""
+    },
+    {
+      "category": "India",
+      "question": "Viswanathan Anand became a world champion in which game?",
+      "options": [
+        "Snooker",
+        "Chess",
+        "Table tennis",
+        "Badminton"
+      ],
+      "answer": "Chess",
+      "difficulty": "easy",
+      "hint": ""
+    },
+    {
+      "category": "India",
+      "question": "Kathakali, known for elaborate costumes and expressive dance-drama, comes from which state?",
+      "options": [
+        "Kerala",
+        "Manipur",
+        "Odisha",
+        "Rajasthan"
+      ],
+      "answer": "Kerala",
+      "difficulty": "medium",
+      "hint": ""
+    },
+    {
+      "category": "India",
+      "question": "In the Bollywood film Taare Zameen Par, the teacher who helps Ishaan discover his talent teaches which subject?",
+      "options": [
+        "Geography",
+        "Mathematics",
+        "History",
+        "Art"
+      ],
+      "answer": "Art",
+      "difficulty": "easy",
+      "hint": ""
+    },
+    {
+      "category": "India",
+      "question": "Dholavira, an ancient city known for its water reservoirs, belonged to which civilisation?",
+      "options": [
+        "Mauryan",
+        "Gupta",
+        "Harappan",
+        "Chola"
+      ],
+      "answer": "Harappan",
+      "difficulty": "hard",
+      "hint": "Think of a Bronze Age civilisation famous for planned cities and drainage systems."
+    },
+    {
+      "category": "India",
+      "question": "Which Indian state was formed in 2014 with Hyderabad as its capital?",
+      "options": [
+        "Telangana",
+        "Chhattisgarh",
+        "Jharkhand",
+        "Uttarakhand"
+      ],
+      "answer": "Telangana",
+      "difficulty": "medium",
+      "hint": ""
+    },
+    {
+      "category": "India",
+      "question": "Srinivasa Ramanujan is best known for his extraordinary work in which field?",
+      "options": [
+        "Botany",
+        "Mathematics",
+        "Music",
+        "Astronomy"
+      ],
+      "answer": "Mathematics",
+      "difficulty": "easy",
+      "hint": ""
+    },
+    {
+      "category": "India",
+      "question": "Which animal has been designated India's national aquatic animal?",
+      "options": [
+        "Dugong",
+        "Smooth-coated otter",
+        "Blue whale",
+        "Ganges river dolphin"
+      ],
+      "answer": "Ganges river dolphin",
+      "difficulty": "hard",
+      "hint": "This freshwater mammal uses sound to navigate and find food."
+    },
+    {
+      "category": "India",
+      "question": "Which Indian instrument is a pair of hand-played drums?",
+      "options": [
+        "Sitar",
+        "Bansuri",
+        "Tabla",
+        "Shehnai"
+      ],
+      "answer": "Tabla",
+      "difficulty": "easy",
+      "hint": ""
+    },
+    {
+      "category": "India",
+      "question": "The Sun Temple at Konark was designed as a monumental representation of what?",
+      "options": [
+        "A chariot",
+        "A sailing ship",
+        "A lotus flower",
+        "A mountain fortress"
+      ],
+      "answer": "A chariot",
+      "difficulty": "hard",
+      "hint": "Look for the carved wheels along the base of the structure."
+    },
+    {
+      "category": "Middle East",
+      "question": "What is the capital of Qatar?",
+      "options": [
+        "Muscat",
+        "Manama",
+        "Doha",
+        "Amman"
+      ],
+      "answer": "Doha",
+      "difficulty": "easy",
+      "hint": ""
+    },
+    {
+      "category": "Middle East",
+      "question": "Frankincense, long traded from Oman's Dhofar region, is obtained from which material?",
+      "options": [
+        "Sea salt",
+        "Tree resin",
+        "Sheep's wool",
+        "Ground seashells"
+      ],
+      "answer": "Tree resin",
+      "difficulty": "medium",
+      "hint": ""
+    },
+    {
+      "category": "Middle East",
+      "question": "Which island country in the Gulf contains the ancient harbour and capital of the Dilmun civilisation?",
+      "options": [
+        "Oman",
+        "Jordan",
+        "Lebanon",
+        "Bahrain"
+      ],
+      "answer": "Bahrain",
+      "difficulty": "hard",
+      "hint": "Look for an island neighbour of Saudi Arabia, linked to it by a causeway."
+    },
+    {
+      "category": "Global",
+      "question": "Which country's flag has a red maple leaf at its centre?",
+      "options": [
+        "Canada",
+        "Switzerland",
+        "Denmark",
+        "Austria"
+      ],
+      "answer": "Canada",
+      "difficulty": "easy",
+      "hint": ""
+    },
+    {
+      "category": "Global",
+      "question": "Which currency is used in Japan?",
+      "options": [
+        "Won",
+        "Yuan",
+        "Yen",
+        "Baht"
+      ],
+      "answer": "Yen",
+      "difficulty": "medium",
+      "hint": ""
+    },
+    {
+      "category": "Global",
+      "question": "The Galapagos Islands, famous for giant tortoises, belong to which country?",
+      "options": [
+        "Chile",
+        "Colombia",
+        "Costa Rica",
+        "Ecuador"
+      ],
+      "answer": "Ecuador",
+      "difficulty": "hard",
+      "hint": "The islands lie near the equator in the Pacific, west of South America."
+    },
+    {
+      "category": "Global",
+      "question": "In which European city would you visit the Prado Museum?",
+      "options": [
+        "Lisbon",
+        "Madrid",
+        "Rome",
+        "Vienna"
+      ],
+      "answer": "Madrid",
+      "difficulty": "medium",
+      "hint": ""
+    },
+    {
+      "category": "IIT Bonus",
+      "question": "Physics: A solid block has a mass of 54 g. When fully submerged in a measuring cylinder, it raises the water level from 40 mL to 60 mL. What is the block's density? Use 1 mL = 1 cubic centimetre.",
+      "options": [
+        "0.9 g per cubic centimetre",
+        "1.35 g per cubic centimetre",
+        "2.7 g per cubic centimetre",
+        "20 g per cubic centimetre"
+      ],
+      "answer": "2.7 g per cubic centimetre",
+      "difficulty": "hard",
+      "hint": "The rise in water level gives the block's volume. Density is mass divided by volume."
+    },
+    {
+      "category": "IIT Bonus",
+      "question": "Chemistry: A neutral atom contains 9 protons and 10 neutrons. How many electrons does it contain?",
+      "options": [
+        "9",
+        "10",
+        "19",
+        "1"
+      ],
+      "answer": "9",
+      "difficulty": "medium",
+      "hint": "Protons carry positive charge and electrons carry equal negative charge. A neutral atom's charges must balance; neutrons carry no charge."
+    },
+    {
+      "category": "IIT Bonus",
+      "question": "Mathematics: How many diagonals does a hexagon have? A diagonal joins two corners that are not next to each other.",
+      "options": [
+        "6",
+        "12",
+        "15",
+        "9"
+      ],
+      "answer": "9",
+      "difficulty": "hard",
+      "hint": "From each corner, count the non-neighbouring corners you can join. If you count from every corner, each diagonal is counted twice."
+    }
+  ]
+}
