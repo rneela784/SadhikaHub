@@ -1,0 +1,303 @@
+{
+  "questions": [
+    {
+      "category": "India",
+      "question": "Chilika, a coastal lagoon visited by many migratory birds, is in which Indian state?",
+      "options": [
+        "Gujarat",
+        "Kerala",
+        "Odisha",
+        "Maharashtra"
+      ],
+      "answer": "Odisha",
+      "difficulty": "hard",
+      "hint": "Look along India's eastern coast, near the Bay of Bengal."
+    },
+    {
+      "category": "India",
+      "question": "Which festival is especially associated with tying a rakhi to celebrate the bond between siblings?",
+      "options": [
+        "Raksha Bandhan",
+        "Holi",
+        "Pongal",
+        "Baisakhi"
+      ],
+      "answer": "Raksha Bandhan",
+      "difficulty": "easy",
+      "hint": ""
+    },
+    {
+      "category": "India",
+      "question": "India's Mangalyaan spacecraft entered orbit around which planet in 2014?",
+      "options": [
+        "Venus",
+        "Jupiter",
+        "Mercury",
+        "Mars"
+      ],
+      "answer": "Mars",
+      "difficulty": "medium",
+      "hint": ""
+    },
+    {
+      "category": "India",
+      "question": "Which is the highest court in India's judicial system?",
+      "options": [
+        "A district court",
+        "The Supreme Court",
+        "A High Court",
+        "A sessions court"
+      ],
+      "answer": "The Supreme Court",
+      "difficulty": "medium",
+      "hint": ""
+    },
+    {
+      "category": "India",
+      "question": "Mary Kom won an Olympic medal in which sport?",
+      "options": [
+        "Weightlifting",
+        "Archery",
+        "Boxing",
+        "Wrestling"
+      ],
+      "answer": "Boxing",
+      "difficulty": "easy",
+      "hint": ""
+    },
+    {
+      "category": "India",
+      "question": "The ancient paintings and monasteries at Ajanta are mainly associated with which religious tradition?",
+      "options": [
+        "Buddhism",
+        "Sikhism",
+        "Christianity",
+        "Islam"
+      ],
+      "answer": "Buddhism",
+      "difficulty": "medium",
+      "hint": ""
+    },
+    {
+      "category": "India",
+      "question": "In the Bollywood film Chak De! India, Kabir Khan coaches a women's team in which sport?",
+      "options": [
+        "Cricket",
+        "Hockey",
+        "Football",
+        "Basketball"
+      ],
+      "answer": "Hockey",
+      "difficulty": "easy",
+      "hint": ""
+    },
+    {
+      "category": "India",
+      "question": "The colourful traditional toys of Channapatna in Karnataka are mainly made from what?",
+      "options": [
+        "Glass",
+        "Iron",
+        "Clay",
+        "Wood"
+      ],
+      "answer": "Wood",
+      "difficulty": "medium",
+      "hint": ""
+    },
+    {
+      "category": "India",
+      "question": "Which tree is traditionally used to grow Meghalaya's living root bridges?",
+      "options": [
+        "Coconut palm",
+        "Teak",
+        "Rubber fig (Ficus elastica)",
+        "Deodar cedar"
+      ],
+      "answer": "Rubber fig (Ficus elastica)",
+      "difficulty": "hard",
+      "hint": "Its flexible aerial roots can be guided across streams and become stronger as they grow."
+    },
+    {
+      "category": "India",
+      "question": "Amul's cooperative movement is most closely associated with which type of farming?",
+      "options": [
+        "Cotton farming",
+        "Dairy farming",
+        "Tea growing",
+        "Rubber growing"
+      ],
+      "answer": "Dairy farming",
+      "difficulty": "easy",
+      "hint": ""
+    },
+    {
+      "category": "India",
+      "question": "India's official national calendar, adopted in 1957, is based on which era?",
+      "options": [
+        "Saka era",
+        "Vikram Samvat era",
+        "Hijri era",
+        "Kollam era"
+      ],
+      "answer": "Saka era",
+      "difficulty": "hard",
+      "hint": "Its first month is Chaitra, and its year usually begins on 22 March."
+    },
+    {
+      "category": "India",
+      "question": "Who wrote the children's story The Blue Umbrella?",
+      "options": [
+        "R. K. Narayan",
+        "Premchand",
+        "Sukumar Ray",
+        "Ruskin Bond"
+      ],
+      "answer": "Ruskin Bond",
+      "difficulty": "medium",
+      "hint": ""
+    },
+    {
+      "category": "India",
+      "question": "Who led the Salt March to Dandi in 1930?",
+      "options": [
+        "Subhas Chandra Bose",
+        "Bal Gangadhar Tilak",
+        "Mahatma Gandhi",
+        "Gopal Krishna Gokhale"
+      ],
+      "answer": "Mahatma Gandhi",
+      "difficulty": "easy",
+      "hint": ""
+    },
+    {
+      "category": "Middle East",
+      "question": "Which tree appears at the centre of Lebanon's national flag?",
+      "options": [
+        "Date palm",
+        "Cedar",
+        "Olive",
+        "Oak"
+      ],
+      "answer": "Cedar",
+      "difficulty": "easy",
+      "hint": ""
+    },
+    {
+      "category": "Middle East",
+      "question": "Iran's traditional qanats carry groundwater to settlements mainly through what?",
+      "options": [
+        "Underground tunnels",
+        "Overhead metal pipes",
+        "Canals carried on ships",
+        "Channels carved in glacier ice"
+      ],
+      "answer": "Underground tunnels",
+      "difficulty": "medium",
+      "hint": ""
+    },
+    {
+      "category": "Middle East",
+      "question": "The ancient site of Hegra in Saudi Arabia is especially associated with which civilisation?",
+      "options": [
+        "Inca",
+        "Maya",
+        "Han Chinese",
+        "Nabataean"
+      ],
+      "answer": "Nabataean",
+      "difficulty": "hard",
+      "hint": "These traders and builders also created Petra, farther north along ancient caravan routes."
+    },
+    {
+      "category": "Global",
+      "question": "The LEGO company began in which European country?",
+      "options": [
+        "Italy",
+        "Finland",
+        "Denmark",
+        "Spain"
+      ],
+      "answer": "Denmark",
+      "difficulty": "easy",
+      "hint": ""
+    },
+    {
+      "category": "Global",
+      "question": "Which British scientist invented the World Wide Web while working at CERN?",
+      "options": [
+        "Tim Berners-Lee",
+        "Charles Darwin",
+        "Isaac Newton",
+        "Michael Faraday"
+      ],
+      "answer": "Tim Berners-Lee",
+      "difficulty": "medium",
+      "hint": ""
+    },
+    {
+      "category": "Global",
+      "question": "At Kinderdijk in the Netherlands, what was the main job of the famous historic windmills?",
+      "options": [
+        "Weaving wool into cloth",
+        "Grinding cocoa beans",
+        "Sawing stone blocks",
+        "Pumping water out of low-lying land"
+      ],
+      "answer": "Pumping water out of low-lying land",
+      "difficulty": "hard",
+      "hint": "Much Dutch land lies very low, so keeping it dry takes careful engineering."
+    },
+    {
+      "category": "Global",
+      "question": "South Africa's national men's team nicknamed the Springboks plays which sport?",
+      "options": [
+        "Cricket",
+        "Rugby union",
+        "Basketball",
+        "Ice hockey"
+      ],
+      "answer": "Rugby union",
+      "difficulty": "medium",
+      "hint": ""
+    },
+    {
+      "category": "IIT Bonus",
+      "question": "Physics: A 2-ohm resistor and a 4-ohm resistor are connected in series to an ideal 12-volt battery. What current flows? In series, resistances add, and current = voltage divided by total resistance.",
+      "options": [
+        "6 amperes",
+        "3 amperes",
+        "0.5 amperes",
+        "2 amperes"
+      ],
+      "answer": "2 amperes",
+      "difficulty": "hard",
+      "hint": "Find the combined resistance first, then use the current rule given in the question."
+    },
+    {
+      "category": "IIT Bonus",
+      "question": "Chemistry: A model contains 3 carbon dioxide molecules (CO2) and 2 water molecules (H2O). How many oxygen atoms are there altogether?",
+      "options": [
+        "5",
+        "6",
+        "8",
+        "10"
+      ],
+      "answer": "8",
+      "difficulty": "medium",
+      "hint": "Each CO2 molecule contains two oxygen atoms; each H2O molecule contains one. Count the two groups separately."
+    },
+    {
+      "category": "IIT Bonus",
+      "question": "Mathematics: A small theatre has 5 rows. The first row has 6 seats, and each following row has 3 more seats than the row before it. How many seats are there altogether?",
+      "options": [
+        "60",
+        "45",
+        "75",
+        "90"
+      ],
+      "answer": "60",
+      "difficulty": "hard",
+      "hint": "Write the seat counts for all five rows, then add them. The increases are equal."
+    }
+  ]
+}
