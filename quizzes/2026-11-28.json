@@ -1,0 +1,303 @@
+{
+  "questions": [
+    {
+      "category": "India",
+      "question": "Hampi's monuments were once part of the capital of which empire?",
+      "options": [
+        "Mauryan",
+        "Vijayanagara",
+        "Gupta",
+        "Mughal"
+      ],
+      "answer": "Vijayanagara",
+      "difficulty": "medium",
+      "hint": ""
+    },
+    {
+      "category": "India",
+      "question": "Garba, a lively circle dance, is especially associated with which state?",
+      "options": [
+        "Assam",
+        "Bihar",
+        "Gujarat",
+        "Punjab"
+      ],
+      "answer": "Gujarat",
+      "difficulty": "easy",
+      "hint": ""
+    },
+    {
+      "category": "India",
+      "question": "India's Aditya-L1 spacecraft was designed to study what?",
+      "options": [
+        "The Sun",
+        "The Moon",
+        "Mars",
+        "Saturn"
+      ],
+      "answer": "The Sun",
+      "difficulty": "medium",
+      "hint": ""
+    },
+    {
+      "category": "India",
+      "question": "Who heads a village gram panchayat?",
+      "options": [
+        "Governor",
+        "Chief Justice",
+        "Speaker",
+        "Sarpanch"
+      ],
+      "answer": "Sarpanch",
+      "difficulty": "medium",
+      "hint": ""
+    },
+    {
+      "category": "India",
+      "question": "Mirabai Chanu won an Olympic medal in which sport?",
+      "options": [
+        "Archery",
+        "Weightlifting",
+        "Badminton",
+        "Boxing"
+      ],
+      "answer": "Weightlifting",
+      "difficulty": "easy",
+      "hint": ""
+    },
+    {
+      "category": "India",
+      "question": "The 19th-century reformer Savitribai Phule is especially remembered for pioneering education for whom?",
+      "options": [
+        "Sailors",
+        "Astronauts",
+        "Girls",
+        "Pilots"
+      ],
+      "answer": "Girls",
+      "difficulty": "hard",
+      "hint": "Think about who had far fewer chances to attend school at that time."
+    },
+    {
+      "category": "India",
+      "question": "In the Bollywood film Dangal, the daughters train for which sport?",
+      "options": [
+        "Wrestling",
+        "Shooting",
+        "Football",
+        "Cycling"
+      ],
+      "answer": "Wrestling",
+      "difficulty": "easy",
+      "hint": ""
+    },
+    {
+      "category": "India",
+      "question": "Blue pottery is a traditional craft especially associated with which Rajasthan city?",
+      "options": [
+        "Udaipur",
+        "Jodhpur",
+        "Bikaner",
+        "Jaipur"
+      ],
+      "answer": "Jaipur",
+      "difficulty": "medium",
+      "hint": ""
+    },
+    {
+      "category": "India",
+      "question": "Which crop is especially important in the tea gardens of Darjeeling?",
+      "options": [
+        "Tea",
+        "Coffee",
+        "Cotton",
+        "Rubber"
+      ],
+      "answer": "Tea",
+      "difficulty": "easy",
+      "hint": ""
+    },
+    {
+      "category": "India",
+      "question": "Which elected body makes laws for India as a whole?",
+      "options": [
+        "Gram panchayat",
+        "Municipal council",
+        "Parliament",
+        "District court"
+      ],
+      "answer": "Parliament",
+      "difficulty": "easy",
+      "hint": ""
+    },
+    {
+      "category": "India",
+      "question": "The Kaziranga National Park is especially known for protecting which animal?",
+      "options": [
+        "One-horned rhinoceros",
+        "Snow leopard",
+        "Asiatic lion",
+        "Nilgiri tahr"
+      ],
+      "answer": "One-horned rhinoceros",
+      "difficulty": "hard",
+      "hint": "Look for a large grazing animal with a single horn on its nose."
+    },
+    {
+      "category": "India",
+      "question": "Which Indian writer created the detective character Feluda?",
+      "options": [
+        "Ruskin Bond",
+        "R. K. Narayan",
+        "Premchand",
+        "Satyajit Ray"
+      ],
+      "answer": "Satyajit Ray",
+      "difficulty": "medium",
+      "hint": ""
+    },
+    {
+      "category": "India",
+      "question": "Which river flows through Varanasi?",
+      "options": [
+        "Yamuna",
+        "Narmada",
+        "Godavari",
+        "Ganga"
+      ],
+      "answer": "Ganga",
+      "difficulty": "easy",
+      "hint": ""
+    },
+    {
+      "category": "Middle East",
+      "question": "Wadi Rum is a famous desert landscape in which country?",
+      "options": [
+        "Jordan",
+        "Oman",
+        "Qatar",
+        "Kuwait"
+      ],
+      "answer": "Jordan",
+      "difficulty": "medium",
+      "hint": ""
+    },
+    {
+      "category": "Middle East",
+      "question": "Which Middle Eastern country is home to the Socotra archipelago and its dragon's blood trees?",
+      "options": [
+        "Lebanon",
+        "Bahrain",
+        "Yemen",
+        "Iraq"
+      ],
+      "answer": "Yemen",
+      "difficulty": "hard",
+      "hint": "The islands lie in the Arabian Sea near the Horn of Africa."
+    },
+    {
+      "category": "Middle East",
+      "question": "What is the capital of the United Arab Emirates?",
+      "options": [
+        "Dubai",
+        "Abu Dhabi",
+        "Sharjah",
+        "Al Ain"
+      ],
+      "answer": "Abu Dhabi",
+      "difficulty": "easy",
+      "hint": ""
+    },
+    {
+      "category": "Global",
+      "question": "Angkor Wat is in which Southeast Asian country?",
+      "options": [
+        "Thailand",
+        "Vietnam",
+        "Laos",
+        "Cambodia"
+      ],
+      "answer": "Cambodia",
+      "difficulty": "medium",
+      "hint": ""
+    },
+    {
+      "category": "Global",
+      "question": "Which famous scientist developed the theory of evolution by natural selection?",
+      "options": [
+        "Charles Darwin",
+        "Albert Einstein",
+        "Isaac Newton",
+        "Galileo Galilei"
+      ],
+      "answer": "Charles Darwin",
+      "difficulty": "easy",
+      "hint": ""
+    },
+    {
+      "category": "Global",
+      "question": "Mount Fuji is a famous volcano in which country?",
+      "options": [
+        "South Korea",
+        "China",
+        "Japan",
+        "Philippines"
+      ],
+      "answer": "Japan",
+      "difficulty": "hard",
+      "hint": "It rises near the capital Tokyo."
+    },
+    {
+      "category": "Global",
+      "question": "Which continent contains the Atacama Desert?",
+      "options": [
+        "Africa",
+        "South America",
+        "Asia",
+        "Australia"
+      ],
+      "answer": "South America",
+      "difficulty": "medium",
+      "hint": ""
+    },
+    {
+      "category": "IIT Bonus",
+      "question": "Physics: A bicycle travels 100 metres in 10 seconds at a steady speed. How far will it travel in the next 5 seconds at the same speed?",
+      "options": [
+        "25 metres",
+        "50 metres",
+        "100 metres",
+        "150 metres"
+      ],
+      "answer": "50 metres",
+      "difficulty": "medium",
+      "hint": "First find how many metres the bicycle travels in one second."
+    },
+    {
+      "category": "IIT Bonus",
+      "question": "Chemistry: A mixture contains iron filings and dry sand. Which simple tool can separate the iron without adding any liquid?",
+      "options": [
+        "A magnet",
+        "A filter paper",
+        "A thermometer",
+        "A mirror"
+      ],
+      "answer": "A magnet",
+      "difficulty": "medium",
+      "hint": "Think about a property of iron that sand does not share."
+    },
+    {
+      "category": "IIT Bonus",
+      "question": "Mathematics: A square has side length 6 cm. A smaller square with side length 2 cm is cut from one corner. What area remains?",
+      "options": [
+        "16 cm²",
+        "32 cm²",
+        "36 cm²",
+        "40 cm²"
+      ],
+      "answer": "32 cm²",
+      "difficulty": "hard",
+      "hint": "Find the areas of both squares, then subtract."
+    }
+  ]
+}

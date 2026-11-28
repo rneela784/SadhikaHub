@@ -28,15 +28,24 @@ if (typeof document !== 'undefined') {
     document.getElementById('submit-note').textContent = count === 23 ? 'All set! Submit to see your score and review the answers.' : `${23 - count} unanswered. You can still submit; unanswered questions earn 0 marks.`;
   };
   form.addEventListener('change', updateProgress);
+  form.querySelectorAll('.reveal-group').forEach(button => button.addEventListener('click', () => {
+    const start = Number(button.dataset.start), end = Number(button.dataset.end);
+    for (let i = start; i <= end; i++) {
+      const review = document.getElementById(`question-${i}`).querySelector('.answer-review');
+      review.textContent = `Correct answer: ${questions[i].answer}`;
+      review.hidden = false;
+    }
+    button.hidden = true;
+  }));
   form.addEventListener('submit', event => {
     event.preventDefault();
     if (submitted) return;
     submitted = true;
     const selected = answers();
     const score = scoreQuiz(questions, selected);
-    document.getElementById('gk-score').textContent = `${score.gk}/20`;
-    document.getElementById('bonus-score').textContent = `${score.bonus}/3`;
-    document.getElementById('total-score').textContent = `${score.total}/23`;
+    document.getElementById('gk-score').textContent = `${score.gk}/20 (${Math.round(score.gk / 20 * 100)}%)`;
+    document.getElementById('bonus-score').textContent = `${score.bonus}/3 (${Math.round(score.bonus / 3 * 100)}%)`;
+    document.getElementById('total-score').textContent = `${score.total}/23 (${Math.round(score.total / 23 * 100)}%)`;
     document.getElementById('result-message').textContent = score.total === 23 ? 'A full score — brilliant exploring! Try another edition next time.' : `Every question is a chance to learn. Review the answers below, then try again! ${23 - score.answered} unanswered.`;
     questions.forEach((q, i) => {
       const card = document.getElementById(`question-${i}`);
@@ -53,6 +62,9 @@ if (typeof document !== 'undefined') {
       feedback.hidden = false;
     });
     document.getElementById('submit-button').disabled = true;
+    document.getElementById('submit-box').hidden = true;
+    form.querySelectorAll('.review-control').forEach(el => { el.hidden = true; });
+    form.querySelectorAll('.answer-review').forEach(el => { el.hidden = true; });
     results.hidden = false;
     results.focus();
     results.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -64,6 +76,9 @@ if (typeof document !== 'undefined') {
     form.querySelectorAll('.feedback').forEach(el => { el.hidden = true; el.textContent = ''; });
     form.querySelectorAll('details').forEach(el => { el.open = false; });
     document.getElementById('submit-button').disabled = false;
+    document.getElementById('submit-box').hidden = false;
+    form.querySelectorAll('.review-control, .reveal-group').forEach(el => { el.hidden = false; });
+    form.querySelectorAll('.answer-review').forEach(el => { el.hidden = true; el.textContent = ''; });
     results.hidden = true;
     updateProgress();
     form.querySelector('input').focus();

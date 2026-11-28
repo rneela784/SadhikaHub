@@ -26,3 +26,9 @@ Navigation update approved 26 October 2026, effective next scheduled publication
 - Home: https://rneela784.github.io/SadhikaHub/
 - Latest: https://rneela784.github.io/SadhikaHub/quiz.html
 - Archive: https://rneela784.github.io/SadhikaHub/quiz-archive.html
+## Approved changes for the next Saturday run (23 November 2026)
+
+Use the next scheduled publication to add answer reveal controls in the quiz UI. In the 20-question GK section, offer a control after questions 5, 10, 15 and 20 that lets the reader view the correct answers for that completed group of five. In the bonus round, offer a separate correct-answer control for each of the three questions. Do not expose answers before the reader chooses the relevant control or submits the quiz. After Submit, show the correct answers as usual and hide the "Ready for the reveal?" prompt and its submit area. Retry must restore the prompt, clear the result and revealed answers, and let the reader answer again. In the results, show both marks and percentages for GK, Bonus and Total, calculated against 20, 3 and 23 respectively. Keep the existing one-mark scoring and no negative marking.
+
+The user also requested a lighter weekly workflow on 21 November 2026: focus on original content generation and deployment. Skip optional validation checks and manual UI/link checks that the user can perform, including the separate scoring test run. Run the build needed to produce the pages and handle only failures that block publication. After publishing, confirm deployment completion so the notification does not claim a local build is live. Do not run or publish an edition when merely updating these instructions.
+

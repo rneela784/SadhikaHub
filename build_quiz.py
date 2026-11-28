@@ -54,7 +54,11 @@ def render(edition, data, prefix=''):
         hint = f'<details><summary>Need a hint?</summary><p>{esc(q["hint"])}</p></details>' if q['hint'] else ''
         cards.append(f'''<section class="card" id="question-{i}" role="group" aria-labelledby="question-title-{i}">
 <div class="meta"><span>QUESTION {i+1:02d} / 23</span><span class="difficulty {q['difficulty']}">{q['difficulty']}</span></div>
-<h3 class="question-title" id="question-title-{i}">{esc(q['question'])}</h3><div class="options">{options}</div>{hint}<p class="feedback" hidden></p></section>''')
+<h3 class="question-title" id="question-title-{i}">{esc(q['question'])}</h3><div class="options">{options}</div>{hint}<p class="answer-review" hidden></p><p class="feedback" hidden></p></section>''')
+        if i < 20 and (i + 1) % 5 == 0:
+            cards.append(f'<div class="review-control"><button type="button" class="secondary reveal-group" data-start="{i-4}" data-end="{i}">View correct answers for questions {i-3}–{i+1}</button></div>')
+        if i >= 20:
+            cards.append(f'<div class="review-control"><button type="button" class="secondary reveal-group" data-start="{i}" data-end="{i}">View answer for question {i+1}</button></div>')
     body = f'''<div class="eyebrow">THE WEEKLY QUIZ · {esc(edition['label'])}</div><h1>Hello, curious mind.</h1>
 <p class="intro">From India's stories to the wonders of the world. Pick your answers, follow your curiosity, and finish with a little science and maths adventure.</p>
 <div class="pills"><span class="pill">{readable}</span><span class="pill">20 GK + 3 bonus</span><span class="pill">No timer · take your time</span></div>
@@ -62,7 +66,7 @@ def render(edition, data, prefix=''):
 <noscript><p>Please enable JavaScript to submit answers and see your score.</p></noscript>
 <section id="results" class="results" aria-labelledby="results-title" tabindex="-1" hidden><h2 id="results-title">Your results</h2>
 <div class="scores"><div class="score"><span>General knowledge</span><strong id="gk-score"></strong></div><div class="score"><span>Bonus round</span><strong id="bonus-score"></strong></div><div class="score"><span>Total marks</span><strong id="total-score"></strong></div></div><p id="result-message"></p><button id="retry-button" type="button" class="secondary">Try again</button></section>
-<form id="quiz-form">{''.join(cards)}<div class="submitbox"><h2>Ready for the reveal?</h2><p id="submit-note" class="fine"></p><button class="primary" id="submit-button" type="submit">Submit my answers →</button><p class="fine">Your score and the correct answers appear after you submit.</p></div></form>'''
+<form id="quiz-form">{''.join(cards)}<div class="submitbox" id="submit-box"><h2>Ready for the reveal?</h2><p id="submit-note" class="fine"></p><button class="primary" id="submit-button" type="submit">Submit my answers →</button><p class="fine">Your score and the correct answers appear after you submit.</p></div></form>'''
     payload = json.dumps(data, ensure_ascii=False).replace('<', '\\u003c').replace('>', '\\u003e').replace('&', '\\u0026')
     script = (ROOT / 'quiz-assets/quiz.js').read_text(encoding='utf-8')
     return shell(f'Weekly GK Quiz · {readable}', body, prefix, f'<script id="quiz-data" type="application/json">{payload}</script><script>{script}</script>')
